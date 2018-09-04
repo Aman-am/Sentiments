@@ -1,1 +1,1 @@
-web: gunicorn Sentiments.application --log-file - 
+web : python application.py 
