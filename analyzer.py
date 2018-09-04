@@ -7,7 +7,6 @@ class Analyzer():
     def __init__(self, positives, negatives):
         """Initialize Analyzer."""
 
-        # TODO
         self.pos_list =[]
         with open (positives) as lines:
             for line in lines:

@@ -24,7 +24,6 @@ def search():
     if tweets == None:
         return redirect(url_for("index"))
 
-    # TODO
     positives = os.path.join(sys.path[0], "positive-words.txt")
     negatives = os.path.join(sys.path[0], "negative-words.txt")
 
